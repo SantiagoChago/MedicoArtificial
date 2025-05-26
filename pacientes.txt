@@ -1,0 +1,28 @@
+pacientes
+
+
+
+(assert (paciente (nombre "Luis Martínez") (edad 40)))
+(assert (sintoma (paciente "Luis Martínez") (tipo fiebre)))
+(assert (sintoma (paciente "Luis Martínez") (tipo dolor-muscular)))
+(assert (sintoma (paciente "Luis Martínez") (tipo tos)))
+
+(assert (paciente (nombre "María López") (edad 35)))
+(assert (sintoma (paciente "María López") (tipo fiebre-recurrente)))
+(assert (sintoma (paciente "María López") (tipo perdida-peso)))
+(assert (sintoma (paciente "María López") (tipo infecciones-frecuentes)))
+
+(assert (paciente (nombre "Pedro Sánchez") (edad 50)))
+(assert (sintoma (paciente "Pedro Sánchez") (tipo ictericia)))
+(assert (sintoma (paciente "Pedro Sánchez") (tipo fatiga)))
+(assert (sintoma (paciente "Pedro Sánchez") (tipo orina-oscura)))
+
+(assert (paciente (nombre "Laura Fernández") (edad 30)))
+(assert (sintoma (paciente "Laura Fernández") (tipo dolor-garganta)))
+(assert (sintoma (paciente "Laura Fernández") (tipo fiebre)))
+(assert (sintoma (paciente "Laura Fernández") (tipo inflamacion-amigdalas)))
+
+(assert (paciente (nombre "Ana Gómez") (edad 25)))
+(assert (sintoma (paciente "Ana Gómez") (tipo erupciones)))
+(assert (sintoma (paciente "Ana Gómez") (tipo picazon)))
+(assert (sintoma (paciente "Ana Gómez") (tipo fiebre)))
